@@ -1223,7 +1223,7 @@ else
 s=0
 end
 
-temp=abs(r2')
+temp=abs.(r2')
  hd=d
   if norm(temp-[0 0 pi])<hd || norm(temp-[0 pi 0])<hd || norm(temp-[pi 0 0])<hd || norm(temp-[0 pi pi])<hd || norm(temp-[pi 0 pi])<hd || norm(temp-[pi pi 0])<hd
 s=0
